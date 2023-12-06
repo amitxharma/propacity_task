@@ -27,7 +27,7 @@ const Starships = () => {
         setIsLoader(false);
       })
       .catch(() => console.log("error"));
-  }, [setSearch]);
+  }, []);
 
   useEffect(() => {
     if (search) {

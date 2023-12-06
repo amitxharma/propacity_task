@@ -3,7 +3,7 @@ import DetailsContex from "./DetailsContex";
 
 const DetailsProvider = ({ children }) => {
   const [asideDisplay, setAsideDisplay] = useState(false);
-  const [details, setDetails] = useState();
+  const [details, setDetils] = useState();
   const [search, setSearch] = useState("");
   const [modal, setModal] = useState(false);
   const [menu, setMenu] = useState(false);
@@ -12,7 +12,7 @@ const DetailsProvider = ({ children }) => {
     asideDisplay,
     setAsideDisplay,
     details,
-    setDetails,
+    setDetils,
     search,
     setSearch,
     modal,

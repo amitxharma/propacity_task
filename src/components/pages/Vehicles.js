@@ -38,7 +38,7 @@ const Vehicles = () => {
     } else {
       setFilter(vehicles);
     }
-  }, [search, vehicles, setSearch]);
+  }, [search, vehicles]);
   return (
     <div>
       <Header />

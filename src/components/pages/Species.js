@@ -29,7 +29,7 @@ const Species = () => {
         setIsLoader(false);
       })
       .catch(() => console.log("error"));
-  }, [setSearch]);
+  }, []);
   // filter the data as soon as the user search something
   useEffect(() => {
     if (search) {
